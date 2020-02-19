@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3cf5b27f-e8cd-47d9-b3f1-2dac6e0c0542" name="Default Changelist" comment="" />
+    <list default="true" id="3cf5b27f-e8cd-47d9-b3f1-2dac6e0c0542" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +18,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XiW2o7WTHcFXMJFNIAdEJIQM8m" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,6 +30,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
@@ -89,7 +98,7 @@
       <updated>1581529190861</updated>
       <workItem from="1581529193559" duration="162000" />
       <workItem from="1582110676512" duration="3120000" />
-      <workItem from="1582113971705" duration="7566000" />
+      <workItem from="1582113971705" duration="14316000" />
     </task>
     <servers />
   </component>
@@ -101,22 +110,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" width="1089" height="705" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1581529287484" />
-    <state width="746" height="210" key="GridCell.Tab.0.bottom" timestamp="1582121459106">
+    <state width="746" height="210" key="GridCell.Tab.0.bottom" timestamp="1582129390245">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582121459106" />
-    <state width="746" height="210" key="GridCell.Tab.0.center" timestamp="1582121459106">
+    <state width="746" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582129390245" />
+    <state width="746" height="210" key="GridCell.Tab.0.center" timestamp="1582129390245">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582121459106" />
-    <state width="746" height="210" key="GridCell.Tab.0.left" timestamp="1582121459106">
+    <state width="746" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582129390245" />
+    <state width="746" height="210" key="GridCell.Tab.0.left" timestamp="1582129390245">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582121459106" />
-    <state width="746" height="210" key="GridCell.Tab.0.right" timestamp="1582121459106">
+    <state width="746" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582129390245" />
+    <state width="746" height="210" key="GridCell.Tab.0.right" timestamp="1582129390245">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582121459106" />
+    <state width="746" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582129390245" />
     <state width="746" height="261" key="GridCell.Tab.1.bottom" timestamp="1582119620633">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -141,13 +150,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581529201651" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1582113838316">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1582123789180">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1582113838316" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1582123789180" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/TestProject$main.coverage" NAME="main Coverage Results" MODIFIED="1582121459098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TestProject$main.coverage" NAME="main Coverage Results" MODIFIED="1582129390237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TestProject$appCoord.coverage" NAME="appCoord Coverage Results" MODIFIED="1582111790676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/StudentGradeWithGUI" />
   </component>
 </project>

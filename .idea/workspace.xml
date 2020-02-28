@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3cf5b27f-e8cd-47d9-b3f1-2dac6e0c0542" name="Default Changelist" comment="" />
+    <list default="true" id="3cf5b27f-e8cd-47d9-b3f1-2dac6e0c0542" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/serverFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/serverText.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +33,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="full.screen.before.presentation.mode" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -80,7 +86,49 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="serverFile" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TestProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/serverFile.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="serverText (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TestProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/serverText.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="serverText" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TestProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -92,7 +140,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server.py" />
+      <option name="SCRIPT_NAME" value="C:\MyFiles\OneDrive - scs.ubbcluj.ro\Github\Mesagerie\serverText.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -104,7 +152,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.server" />
+        <item itemvalue="Python.serverFile" />
+        <item itemvalue="Python.serverText (1)" />
+        <item itemvalue="Python.serverText" />
         <item itemvalue="Python.appCoord" />
       </list>
     </recent_temporary>
@@ -153,47 +203,55 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="369" y="0" key="#server/0.0.1280.680@0.0.1280.680" timestamp="1582195058670" />
-    <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1582297290686">
+    <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1582905780724">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582297290686" />
+    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582905780724" />
     <state width="746" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582129390245" />
-    <state width="1259" height="163" key="GridCell.Tab.0.center" timestamp="1582297290686">
+    <state width="1259" height="163" key="GridCell.Tab.0.center" timestamp="1582905780724">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1582297290686" />
+    <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1582905780724" />
     <state width="746" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582129390245" />
-    <state width="1259" height="163" key="GridCell.Tab.0.left" timestamp="1582297290685">
+    <state width="1259" height="163" key="GridCell.Tab.0.left" timestamp="1582905780724">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1582297290685" />
+    <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1582905780724" />
     <state width="746" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582129390245" />
-    <state width="1259" height="163" key="GridCell.Tab.0.right" timestamp="1582297290686">
+    <state width="1259" height="163" key="GridCell.Tab.0.right" timestamp="1582905780724">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1582297290686" />
+    <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1582905780724" />
     <state width="746" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582129390245" />
-    <state width="746" height="261" key="GridCell.Tab.1.bottom" timestamp="1582119620633">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1259" height="204" key="GridCell.Tab.1.bottom" timestamp="1582789199747">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1259" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582789199747" />
     <state width="746" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582119620633" />
-    <state width="746" height="261" key="GridCell.Tab.1.center" timestamp="1582119620633">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1259" height="204" key="GridCell.Tab.1.center" timestamp="1582789199747">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1259" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1582789199747" />
     <state width="746" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1582119620633" />
-    <state width="746" height="261" key="GridCell.Tab.1.left" timestamp="1582119620633">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1259" height="204" key="GridCell.Tab.1.left" timestamp="1582789199747">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1259" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1582789199747" />
     <state width="746" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1582119620633" />
-    <state width="746" height="261" key="GridCell.Tab.1.right" timestamp="1582119620633">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1259" height="204" key="GridCell.Tab.1.right" timestamp="1582789199747">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1259" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1582789199747" />
     <state width="746" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1582119620633" />
     <state x="231" y="0" key="SettingsEditor" timestamp="1582195101354">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="231" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1582195101354" />
     <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1582115069434" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1582299111695">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1280.680@0.0.1280.680" timestamp="1582299111695" />
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1581529201651">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

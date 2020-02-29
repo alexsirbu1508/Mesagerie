@@ -1,8 +1,13 @@
 import socket
+from methods import get_host, int_to_binary
 
 fisier = {}
-HOST = '192.168.43.109'  # Standard loopback interface address (localhost)
+HOST = get_host()  # Standard loopback interface address (localhost)
 PORT = 65431      # Port to listen on (non-privileged ports are > 1023)
+
+
+
+
 
 while True:
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
@@ -28,7 +33,9 @@ while True:
 
                 else:
                     nr_fisiere = len(fisier[ip])
+                    conn.sendall(int_to_binary(nr_fisiere))
                     for i in range(0,nr_fisiere):
                         conn.sendall(fisier[ip][i])
                         print(fisier[ip][i])
                     fisier[ip] = []
+

@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 
 import socket
+from methods import get_host
 
 mesaj = {}
-HOST = '192.168.43.109'  # Standard loopback interface address (localhost)
+HOST = get_host()  # Standard loopback interface address (localhost)
 PORT = 65432        # Port to listen on (non-privileged ports are > 1023)
 while True:
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:

@@ -1,13 +1,14 @@
 from tkinter import *
 from tkinter import filedialog
 import socket
+from methods import get_host, binary_to_int
 
 hostname = socket.gethostname()
 IPAdr = socket.gethostbyname(hostname)
 
-HOST = '192.168.43.109'  # The server's hostname or IP address
-PORT_TEXT = 65432    # The port used by the server
-
+HOST = get_host()    # The server's hostname or IP address
+PORT_TEXT = 65432    # The port used by the text server
+PORT_FILE = 65431    # The port used by the file server
 
 class UI():
     def __init__(self):
@@ -56,6 +57,7 @@ class UI():
         print(file_path)
 
     def __ButtonClickRequest(self, event):
+        #text_request
         with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
             s.connect((HOST, PORT_TEXT))
             s.sendall(b'error207b')
@@ -63,12 +65,20 @@ class UI():
             self.addText(data)
             s.shutdown(1)
             s.close()
+
+        #file_request
         with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-            s.connect((HOST, 65431))
+            s.connect((HOST, PORT_FILE))
             s.sendall(b'cod202')
-            nr_fisiere = s.recv(4)
-            for i in range(0,nr_fisiere):
+            nr_fisiere = binary_to_int(s.recv(4))
+            print(nr_fisiere)
+            for i in range(0, nr_fisiere):
                 data = s.recv(1024*1024*10)
+                #scrie fisierele pe disk la un path
+                    #alta functie ce va da pathurile alea pe pc
+                #da print la href linku catre acel path
+                    #functie ce va lua pathu si va crea link
+                        #de unde reiese numele fisierului in cadrul binarului
                 print(data)
 
     def __EnterEvent(self, event):

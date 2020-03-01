@@ -39,13 +39,13 @@ class UI():
         self.__button.bind("<Button-1>", self.__ButtonClickSelectFile)
 
         self.__data = ""
-
+        self.__file_path = ''
 
     def __ButtonClickSelectFile(self, event):
-        file_path = filedialog.askopenfilename()
-        if file_path == "":
+        self.__file_path = filedialog.askopenfilename()
+        if self.__file_path == "":
             return
-        with open(file_path,'rb') as f:
+        with open(self.__file_path,'rb') as f:
             with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
 
                 s.connect((HOST, 65431))
@@ -54,7 +54,7 @@ class UI():
                 s.send(l)
                 print(PORT_TEXT)
                 s.close()
-        print(file_path)
+        print(self.__file_path)
 
     def __ButtonClickRequest(self, event):
         #text_request
@@ -74,11 +74,12 @@ class UI():
             print(nr_fisiere)
             for i in range(0, nr_fisiere):
                 data = s.recv(1024*1024*10)
-                #scrie fisierele pe disk la un path
-                    #alta functie ce va da pathurile alea pe pc
-                #da print la href linku catre acel path
-                    #functie ce va lua pathu si va crea link
-                        #de unde reiese numele fisierului in cadrul binarului
+
+                nume_fisier = self.__file_path.split('/')[-1]
+                with open('files/'+nume_fisier,'wb') as f:
+                    f.write(bytearray(data))
+                    f.close()
+
                 print(data)
 
     def __EnterEvent(self, event):

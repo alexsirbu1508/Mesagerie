@@ -19,10 +19,9 @@ while True:
                 print('Connected by', addr)
                 data = conn.recv(2097152) #2mb
                 print(data)
+
+                ip = addr[0]
                 if data != b'cod202':
-
-                    ip = addr[0]
-
                     if ip not in fisier:
                         for i in fisier:
                             fisier[i].append(data)
